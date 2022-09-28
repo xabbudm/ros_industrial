@@ -1,0 +1,9 @@
+services:
+  fanuc_experimental-ws:
+    image: fanuc_experimental
+    volumes: 
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+    environment: 
+      - DISPLAY=${DISPLAY}
+    network_mode: host
+    

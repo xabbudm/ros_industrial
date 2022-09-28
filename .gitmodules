@@ -1,0 +1,6 @@
+[submodule "src/fanuc"]
+	path = src/fanuc
+	url = https://github.com/ros-industrial/fanuc.git
+[submodule "src/fanuc_experimental"]
+	path = src/fanuc_experimental
+	url = https://github.com/xabbudm/fanuc_experimental.git
